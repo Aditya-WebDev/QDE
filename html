@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QDE.css" >
+    <title>Document</title>
+</head>
+<body>
+    <table id="mytable">
+        <thead>
+            <tr>
+                <td>Question No</td>
+                <td>Question Points</td>
+                <td>Marks Secured</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>100</td>
+                <td><input type="number" name="marks1" id="marks0" max ="99"/></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="handleSubmit()">Submit</button>
+    <button onclick="handleClear()">Clear</button>
+    <button onclick="handleRow()">Add Row</button>
+
+    <p id="output"></p>
+
+    <script src="QDE.js"></script>
+</body>
+</html>
